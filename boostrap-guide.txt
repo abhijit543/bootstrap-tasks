@@ -1,0 +1,205 @@
+bootstrap is a library of css.
+bootstrap is the first framework of html,css,javascript.
+framework means combinantion of multiple language.
+it was introduced by twitter in 2011. 
+bootstrap has divided all type of device in 6 category based on screen width.
+=>extra small(1px to 576px)
+=>small(576 to 768 px)
+=>medium(768 px to 992px)
+=>large(992 px to 1200px)
+=>extra large(1200 to 1400px)
+=>extra extra large (>1400px)
+bootstrap has given 12 css classes for each above category
+extra small(1px to 576px)
+.col-1
+.col-2
+.col-3
+.col-4
+.col-5
+.col-6
+.col-7
+.col-8
+.col-9
+.col-10
+.col-11
+.col-12
+
+small(576 to 768 px)
+.col-sm-1
+.col-sm-2
+.col-sm-3
+.col-sm-4
+.col-sm-5
+.col-sm-6
+.col-sm-7
+.col-sm-8
+.col-sm-9
+.col-sm-10
+.col-sm-11
+.col-sm-12
+
+medium(768 px to 992px)
+.col-md-1
+.col-md-2
+.col-md-3
+.col-md-4
+.col-md-5
+.col-md-6
+.col-md-7
+.col-md-8
+.col-md-9
+.col-md-10
+.col-md-11
+.col-md-12
+
+large(992 px to 1200px)
+.col-lg-1
+.col-lg-2
+.col-lg-3
+.col-lg-4
+.col-lg-5
+.col-lg-6
+.col-lg-7
+.col-lg-8
+.col-lg-9
+.col-lg-10
+.col-lg-11
+.col-lg-12
+
+extra large(1200 to 1400px)
+.col-xl-1
+.col-xl-2
+.col-xl-3
+.col-xl-4
+.col-xl-5
+.col-xl-6
+.col-xl-7
+.col-xl-8
+.col-xl-9
+.col-xl-10
+.col-xl-11
+.col-xl-12
+
+extra extra large (>1400px)
+.col-xxl-1
+.col-xxl-2
+.col-xxl-3
+.col-xxl-4
+.col-xxl-5
+.col-xxl-6
+.col-xxl-7
+.col-xxl-8
+.col-xxl-9
+.col-xxl-10
+.col-xxl-11
+.col-xxl-12
+
+===72classes====
+->link to bootstrap.css file in heas section
+->use body tag
+->insid e use section,main,div etc tag with following classes
+.container-it has margin from left to right
+.container-fluid - it has  not margin . it cover full width
+-> use .row inside container or conntainer fluid
+->use columns inside the .row
+each row can hold max 12 columns.
+
+----------------------------------
+classes for margin and padding
+m-margin
+p-padding
+t-top
+b-bottom
+s-start
+e-end
+1 - 4px
+2- 8px
+3 - 16px
+4 - 24px
+5 - 48px
+
+for margin
+.m-1, .m-2,.m-3,.m-4,.m-5
+.mt-1, .mt-2,.mt-3,.mt-4,.mt-5
+.mb-1, .mb-2,.mb-3,.mb-4,.mb-5
+.ms-1, .ms-2,.ms-3,.ms-4,.ms-5
+.me-1, .me-2,.me-3,.me-4,.me-5
+
+for padding
+.p-1, .p-2,.p-3,.p-4,.p-5
+.pt-1, .pt-2,.pt-3,.pt-4,.pt-5
+.pb-1, .pb-2,.pb-3,.pb-4,.pb-5
+.ps-1, .ps-2,.ps-3,.ps-4,.ps-5
+.pe-1, .pe-2,.pe-3,.pe-4,.pe-5
+
+classes for text color
+.text-primary     --blue
+.text-info        -- skyblue
+.text-success     -- green
+.text-warning     --yellow
+.text-danger      -- red
+.text-secondary   -- grey
+.text-dark        --black
+.text-white       --white
+
+classes for background color:-
+.bg-primary     --blue
+.bg-info        -- skyblue
+.bg-success     -- green
+.bg-warning     --yellow
+.bg-danger      -- red
+.bg-secondary   -- grey
+.bg-dark        --black
+.bg-white       --white
+.bg-light       --like white
+
+classes for text-alignment
+.text-start -- it start from left side
+.text-center --- 
+.text-end
+
+radious classes
+
+.rounded
+.rounded-circle 50% radious
+
+classes shadow for box
+.shadow
+.shadow-lg
+
+classes for image
+
+.img-fluid - it has width 100% and height is auto
+.img-thumbnail 
+
+classes for table
+.table
+.table-bordered
+.table-hover
+.table-sm
+.table-striped
+background color in table,tr,th.td
+.table-primary     --blue
+.table-info        -- skyblue
+.table-success     -- green
+.table-warning     --yellow
+.table-danger      -- red
+.table-secondary   -- grey
+.table-dark        --black
+.table-white       --white
+.table-light       --like white
+
+classes for input elements
+.form-control (text,password,email,number,textarea,file,date)
+.form-select (select)
+classes for btn
+.btn-primary     --blue
+.btn-info        -- skyblue
+.btn-success     -- green
+.btn-warning     --yellow
+.btn-danger      -- red
+.btn-secondary   -- grey
+.btn-dark        --black
+.btn-white       --white
+.btn-light       --like white
+
