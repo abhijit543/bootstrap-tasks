@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Your Mobile</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css" />
+    <script>
+      const mobNo = ["8296771894", "8348263267"];
+      let mobNumber = [];
+      console.log(mobNumber);
+
+      mobNo.map((number, index) => {
+        mobNumber.push(number);
+      });
+      const save = () => {
+        let phone = document.getElementById("telphn").value;
+        let errorMessage = document.getElementsByClassName("err-msg")[0];
+        let errorMessage1 = document.getElementsByClassName("err-msg")[1];
+        if (phone.length !== 10) {
+          errorMessage.innerHTML = "Please enter your 10-digit valid mobile number.";
+        } else {
+          errorMessage.innerHTML = "";
+        }
+        if (mobNumber.includes(phone)) {
+          errorMessage1.innerHTML = "Already Register! Go to Login";
+        } else {
+          errorMessage1.innerHTML = "";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center align-items-center mt-2">
+        <div class="col-xl-8 col-lg-8 col-md-10">
+          <h1 class="text-primary text-center">Enter Your Registered Mobile No.</h1>
+
+          <p class="text-danger text-center err-msg"></p>
+          <div class="d-flex justify-content-center">
+            <input type="tel" placeholder="Enter 10-digit mobile" class="form-control w-50 text-center" pattern="[0-9]{10}" id="telphn" />
+            <button type="submit" class="btn btn-primary ms-3" onclick="save()"><i class="fa fa-user-plus"></i> Register</button>
+          </div>
+          <p class="text-primary text-center mt-3 err-msg"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
